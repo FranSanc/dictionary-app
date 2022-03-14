@@ -9,7 +9,15 @@ function App() {
         <header className="App-header"></header>
       </div>
       <main>
-        <Dictionary/>
+        <Dictionary />
+        <small>
+          {" "}
+          Coded by Francesca Sancarlo,{" "}
+          <a href="https://github.com/FranSanc/dictionary-app">
+            {" "}
+            GitHub link{" "}
+          </a>{" "}
+        </small>
       </main>
     </div>
   );

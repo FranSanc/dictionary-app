@@ -3,8 +3,8 @@ import axios from "axios";
 import "./Dictionary.css";
 import Results from "./Results.js"
 
-export default function Dictionary() {
-  let [keyword, setKeyword] = useState("null");
+export default function Dictionary(props) {
+  let [keyword, setKeyword] = useState(props.defaultKeyword);
   let [results, setResults]= useState(null);
 
   function handleResponse(response) {

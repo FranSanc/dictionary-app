@@ -10,6 +10,8 @@ function App() {
       </div>
       <main>
         <Dictionary />
+      </main>
+      <footer className="App-footer">
         <small>
           {" "}
           Coded by Francesca Sancarlo,{" "}
@@ -18,7 +20,7 @@ function App() {
             GitHub link{" "}
           </a>{" "}
         </small>
-      </main>
+      </footer>
     </div>
   );
 }

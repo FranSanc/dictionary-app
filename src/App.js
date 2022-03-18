@@ -9,16 +9,22 @@ function App() {
         <header className="App-header"></header>
       </div>
       <main>
-        <Dictionary defaultKeyword="sunset"/>
+        <Dictionary defaultKeyword="sunset" />
       </main>
       <footer className="App-footer">
         <small>
           {" "}
-          Coded by Francesca Sancarlo,{" "}
-          <a href="https://github.com/FranSanc/dictionary-app">
-            {" "}
-            GitHub link{" "}
-          </a>{" "}
+          Coded by Francesca Sancarlo,
+          <strong>
+            <a href="https://github.com/FranSanc/dictionary-app">
+              {" "}
+              open-sourced on GitHub{" "}
+            </a>{" "}
+          </strong>
+          and hosted on
+          <strong>
+            <a href="https://unruffled-wescoff-3215ed.netlify.app/"> Netlify</a>
+          </strong>
         </small>
       </footer>
     </div>

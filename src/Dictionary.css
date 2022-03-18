@@ -6,29 +6,56 @@
   margin: 5%;
 }
 
-.Dictionary h1{
-  font-size: 25px;
+.Dictionary h1 {
+  font-size: 30px;
   font-weight: bold;
-  margin-bottom: 23px;
+  text-align: center;
+   background: -webkit-linear-gradient(#98afef, #eba7be);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.Dictionary h5{
+  font-size: 22px;
+  text-align: center;
+  font-weight:lighter;
+  margin-bottom: 20px;
 }
 
 .Dictionary input {
   width: 100%;
   padding: 6px 4px;
-  border: 1px solid #ddd;
+  border: 1px solid #ffd2d2;
   color: #333;
 }
 
 .Dictionary form {
   appearance: auto;
   box-sizing: border-box;
-  border: 1px solid #ffd2d2;
-  box-shadow: inset 0px 0px 15px #ffe5e5;
+
   margin: 0px 0px 10px 0px;
 }
 
-.Dictionary .hint{
-    font-size: 14px;
-    margin-top: 5px;
-    opacity: 40%;
+.Dictionary .hint {
+  font-size: 14px;
+  margin-top: 5px;
+  opacity: 40%;
+}
+
+.SearchButton {
+  font-weight: bold;
+  background: #a770ef;
+  background: -webkit-linear-gradient(145deg, #ebc2d2, #d6e0ff, #d6e0ff);
+  background: linear-gradient(145deg, #ebc2d2, #d6e0ff, #d6e0ff);
+  border: 3px solid #eee;
+  border-radius: 35px;
+  transition: all 150ms ease-in-out;
+}
+
+.SearchButton:hover {
+  background: #ebc2d2;
+  color:white;
+  font-weight: bold;
+  
 }

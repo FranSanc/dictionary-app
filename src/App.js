@@ -16,14 +16,23 @@ function App() {
           {" "}
           Coded by Francesca Sancarlo,
           <strong>
-            <a href="https://github.com/FranSanc/dictionary-app">
+            <a
+              href="https://github.com/FranSanc/dictionary-app"
+              target="blank"
+            >
               {" "}
               open-sourced on GitHub{" "}
             </a>{" "}
           </strong>
           and hosted on
           <strong>
-            <a href="https://unruffled-wescoff-3215ed.netlify.app/"> Netlify</a>
+            <a
+              href="https://unruffled-wescoff-3215ed.netlify.app/"
+              target="blank"
+            >
+              {" "}
+              Netlify
+            </a>
           </strong>
         </small>
       </footer>

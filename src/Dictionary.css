@@ -1,8 +1,34 @@
-.container{
-    margin-top:30px;
-    
+.Dictionary section {
+  background: white;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgb(0 0 0 /10%);
+  margin: 5%;
 }
 
-.Dictionary{
-    text-align: center;
+.Dictionary h1{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 23px;
+}
+
+.Dictionary input {
+  width: 100%;
+  padding: 6px 4px;
+  border: 1px solid #ddd;
+  color: #333;
+}
+
+.Dictionary form {
+  appearance: auto;
+  box-sizing: border-box;
+  border: 1px solid #ffd2d2;
+  box-shadow: inset 0px 0px 15px #ffe5e5;
+  margin: 0px 0px 10px 0px;
+}
+
+.Dictionary .hint{
+    font-size: 14px;
+    margin-top: 5px;
+    opacity: 40%;
 }

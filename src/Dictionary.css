@@ -10,16 +10,15 @@
   font-size: 30px;
   font-weight: bold;
   text-align: center;
-   background: -webkit-linear-gradient(#98afef, #eba7be);
+  background: -webkit-linear-gradient(#98afef, #eba7be);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  
 }
 
-.Dictionary h5{
+.Dictionary h5 {
   font-size: 22px;
   text-align: center;
-  font-weight:lighter;
+  font-weight: lighter;
   margin-bottom: 20px;
 }
 
@@ -33,7 +32,6 @@
 .Dictionary form {
   appearance: auto;
   box-sizing: border-box;
-
   margin: 0px 0px 10px 0px;
 }
 
@@ -55,7 +53,6 @@
 
 .SearchButton:hover {
   background: #ebc2d2;
-  color:white;
+  color: white;
   font-weight: bold;
-  
 }

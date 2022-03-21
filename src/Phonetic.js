@@ -1,11 +1,25 @@
 import React from "react";
-import "./Phonetic.css"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPlay } from "@fortawesome/free-solid-svg-icons";
+import "./Phonetic.css";
 
 export default function Phonetic(props) {
-  return (
-    <div className="Phonetic">
-      <a href={props.phonetic.audio}>Listen</a>
-      <span className="text">{props.phonetic.text}</span>
-    </div>
-  );
+  const audio = new Audio(props.phonetic.audio);
+
+  function handleClick() {
+    audio.play();
+  }
+
+  if (props.phonetic) {
+    return (
+      <div className="Phonetic">
+        <button type="button" className="Phonetic-button" onClick={handleClick}>
+          <FontAwesomeIcon icon={faPlay} />
+        </button>
+        <span className="Phonetic text">{props.phonetic.text}</span>
+      </div>
+    );
+  } else {
+    return null;
+  }
 }
